@@ -2,7 +2,7 @@ $('#login-button').click(function (event) {
 	var userName=document.getElementById("userName").value;
     var pwd=document.getElementById("pwd").value;
 		//修改密码请改此处
-    if(userName=="秦玉莲" &&  pwd=="2484"){
+    if((userName=="秦玉莲" &&  pwd=="2484") || (userName=="qy" &&  pwd=="123456") || (userName=="亲爱的" || pwd=="亲爱的")){
 			event.preventDefault();
 			$('form').fadeOut(500);
 			$('.wrapper').addClass('form-success');
@@ -12,7 +12,7 @@ $('#login-button').click(function (event) {
 			},2000);
 		}
 	else{
-		alert("提示：再试试看哦~");
+		alert("敲敲小脑袋瓜~");
 	}
 });
 
