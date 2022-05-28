@@ -828,7 +828,7 @@
 }
 .active .ly-imgbox21{
 	opacity:1;
-	transition-delay:3.5s;
+	transition-delay:1s;
 }
 .ly-img21{
 	position: absolute;
@@ -868,19 +868,19 @@
 
 .active .ly-txt22 {
 	opacity: 1;
-	transition-delay: 4s;
+	transition-delay: 1s;
 }
 
 /* 盒子 */
 .ly-box22 {
 	width: 15%;
-	height: 510px;
+	height: 420px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
 	border-radius: 8px;
 	position: absolute;
-	left: 42%;
+	left: 27%;
 	top:22%;
 	overflow: hidden;
 	opacity: 0;
@@ -892,7 +892,7 @@
 	opacity: 0.9;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
-	transition-delay: 5s;
+	transition-delay: 3s;
 }
 /*小三角*/
 .ly-triangle22 {
@@ -933,7 +933,7 @@
 
 .active .ly-txt23 {
 	opacity: 1;
-	transition-delay: 6s;
+	transition-delay: 3.5s;
 }
 
 .ly-txt24 {
@@ -953,7 +953,7 @@
 
 .active .ly-txt24 {
 	opacity:1;
-	transition-delay: 7.0s;
+	transition-delay: 3.5s;
 }
 /*图片*/
 .ly-imgbox22{
@@ -968,7 +968,7 @@
 }
 .active .ly-imgbox22{
 	opacity:1;
-	transition-delay:6s;
+	transition-delay:3s;
 }
 .ly-img22{
 	position: absolute;
@@ -985,15 +985,15 @@
 	background-color: rgba(255,255,255,0.6);
 	border-radius: 8px;
 	position: absolute;
-	left: 61%;
+	left: 54%;
 	bottom:6%;
 	overflow: hidden;
 	opacity: 0.9;
-	transition: all 10s;
+	transition: all 8s;
 }
 .active .ly-box23{
-	height:600px;
-	transition-delay: 8s;
+	height:480px;
+	transition-delay: 4s;
 }
 /*小三角*/
 .ly-triangle23 {
@@ -1054,7 +1054,7 @@
 
 .active .ly-txt26 {
 	opacity:1;
-	transition-delay: 14s;
+	transition-delay: 9s;
 }
 /*图片*/
 .ly-imgbox23{
@@ -1069,7 +1069,7 @@
 }
 .active .ly-imgbox23{
 	opacity:1;
-	transition-delay:12s;
+	transition-delay:6s;
 }
 .ly-img23{
 	position: absolute;
@@ -1427,7 +1427,7 @@
 	font-color: #000;
 	position: absolute;
 	width:80%;
-	top:9%;
+	top:21%;
 	margin-left:5%;
 	opacity: 0;
 	transition: all 0.5s;
@@ -1461,7 +1461,7 @@
 }
 .ly-box71 {
 	width: 15%;
-	height: 540px;
+	height: 480px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -1510,7 +1510,7 @@
 }
 .ly-box72 {
 	width: 15%;
-	height: 450px;
+	height: 390px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -1606,7 +1606,7 @@
 	font-color: #000;
 	position: absolute;
 	width:80%;
-	top:9%;
+	top:27%;
 	margin-left:5%;
 	opacity: 0;
 	transition: all 0.5s;
@@ -1646,7 +1646,7 @@
 	font-color: #000;
 	position: absolute;
 	width:80%;
-	top:9%;
+	top:18%;
 	margin-left:5%;
 	opacity: 0;
 	transition: all 0.5s;
@@ -2086,4 +2086,7 @@
 }
 .xx94 {
 	height:80%;
+}
+.ly-title {
+	font-size: 21px;
 }
