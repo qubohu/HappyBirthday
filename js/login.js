@@ -1,8 +1,16 @@
 $('#login-button').click(function (event) {
 	var userName=document.getElementById("userName").value;
     var pwd=document.getElementById("pwd").value;
-		//修改密码请改此处
+
     if((userName=="秦玉莲" &&  pwd=="2484") || (userName=="qy" &&  pwd=="123456") || (userName=="亲爱的" || pwd=="亲爱的")){
+		  var system = {};
+		  var p = navigator.platform;
+		  var u = navigator.userAgent;
+
+		  system.win = p.indexOf("Win") == 0;
+		  system.mac = p.indexOf("Mac") == 0;
+		  system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+		  if (system.win || system.mac || system.xll) {//如果是PC端
 			event.preventDefault();
 			$('form').fadeOut(500);
 			$('.wrapper').addClass('form-success');
@@ -10,12 +18,14 @@ $('#login-button').click(function (event) {
 			setTimeout(function(){
 				location.href="BirthdayCake.html";
 			},2000);
-		}
+		  }else{
+			  alert("为了更好的体验请在电脑上看哦~");
+		  }
+	}
 	else{
 		alert("敲敲小脑袋瓜~");
 	}
 });
-
 
 function requestFullScreen(element) {
 	var element=document.documentElement;
