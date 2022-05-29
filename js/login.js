@@ -16,7 +16,7 @@ $('#login-button').click(function (event) {
 			$('.wrapper').addClass('form-success');
 			requestFullScreen();
 			setTimeout(function(){
-				location.href="BirthdayCake.html";
+				location.href= userName=="亲爱的" || pwd=="亲爱的" ? "BirthdayCake.html" : "BirthdayCake0.html";
 			},2000);
 		  }else{
 			  alert("为了更好的体验请在电脑上看哦~");
