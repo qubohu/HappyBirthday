@@ -2,7 +2,7 @@ $('#login-button').click(function (event) {
 	var userName=document.getElementById("userName").value;
     var pwd=document.getElementById("pwd").value;
 
-    if((userName=="秦玉莲" &&  pwd=="2484") || (userName=="qy" &&  pwd=="123456") || (userName=="亲爱的" || pwd=="亲爱的")){
+    if((userName=="小玉莲" &&  pwd=="2484") || (userName=="qy" &&  pwd=="123456") || (userName=="亲爱的" || pwd=="亲爱的")){
 		  var system = {};
 		  var p = navigator.platform;
 		  var u = navigator.userAgent;
